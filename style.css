@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Questrial", sans-serif;
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+  
+}
+.leftSideHeader{
+    display: flex;
+    align-items: center;
+    margin: 0.2rem 4rem;
+}
+.logoImg{
+    width: 7rem;
+    height: 4rem;
+    object-fit: contain;
+    
+}
+nav{
+    margin-left: -1rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+li{
+    font-size: 0.9rem;
+    color: #504a40;
+    cursor: pointer;
+}
+.rightSideHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.modal{
+    text-decoration: none;
+    color: #504a40;
+}
+.search{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 8px;
+}
