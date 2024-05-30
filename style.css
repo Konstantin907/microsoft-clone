@@ -8,7 +8,6 @@ body{
 header{
     display: flex;
     align-items: center;
-    gap: 5rem;
     width: 100%;
   
 }
@@ -50,4 +49,47 @@ li{
     width: 1rem;
     height: 1rem;
     margin-right: 8px;
+}
+.media{
+    display: none;
+    
+}
+/* header media */
+@media(max-width:400px){
+    .media{
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .mediaLeft{
+        display: flex;
+        margin-left: 0;
+        gap: 5px;
+    }
+    .mediaMiddle{   
+        margin: 0 auto;
+    }
+    .marginRight{
+        gap: 5px;
+        cursor: pointer;
+    }
+    
+    .logoImg{
+        width: 7rem;
+        height: 4rem;
+        object-fit: contain;
+        
+    }
+    nav{
+        display: none;
+    }
+    .leftSideHeader{
+        display: none;
+    }
+    .rightSideHeader{
+        display: none;
+    }
+  
 }
