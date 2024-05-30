@@ -207,4 +207,37 @@ li:hover{
     width: 120px;
     height: 40px;
     font-size: 15px;
+    cursor: pointer;
   }
+
+  /* carousel media */
+  
+  @media (max-width: 400px) {
+    .carousel-item {
+        flex-direction: column;
+    }
+
+    .carousel-caption {
+        position: static;
+        background-color: white;
+        color: black;
+        padding: 10px;
+    }
+
+    .new {
+        font-size: 16px;
+    }
+
+    .first-slide-heading, .second-slide-heading, .third-slide-heading {
+        font-size: 20px;
+    }
+    .first-desc{
+        font-weight: 500;
+    }
+
+    .preOrder {
+        width: auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
